@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Stan wciśnięcia -->
+    <item android:state_pressed="true" android:drawable="@drawable/rounded_button_pressed"/>
+    <!-- Stan wyłączenia -->
+    <item android:state_enabled="false" android:drawable="@drawable/rounded_button_disabled"/>
+    <!-- Stan normalny -->
+    <item android:drawable="@drawable/rounded_button_normal"/>
+</selector>
