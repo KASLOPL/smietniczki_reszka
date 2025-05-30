@@ -98,7 +98,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="@+id/button4"
         app:layout_constraintTop_toTopOf="@+id/button4"
-        app:layout_constraintVertical_bias="0.466" />
+        app:layout_constraintVertical_bias="0.466"
+        android:elevation="10dp"/>
 
     <TextView
         android:id="@+id/textView123123"
@@ -111,7 +112,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="@+id/button4"
         app:layout_constraintTop_toTopOf="@+id/button4"
-        app:layout_constraintVertical_bias="0.908" />
+        app:layout_constraintVertical_bias="0.908"
+        android:elevation="10dp"/>
 
 
     <TextView
@@ -125,7 +127,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="@+id/button2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:elevation="10dp"/>
 
     <TextView
         android:id="@+id/textView2123"
@@ -138,7 +141,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="@+id/button2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:elevation="10dp"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -164,7 +168,9 @@
         app:layout_constraintBottom_toBottomOf="@+id/btn_camera"
         app:layout_constraintEnd_toEndOf="@+id/btn_camera"
         app:layout_constraintTop_toTopOf="@+id/btn_camera"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:elevation="10dp"
+        />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/neptun"
@@ -173,10 +179,11 @@
         android:src="@drawable/neptun"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497" />
+        app:layout_constraintVertical_bias="0.497"
+        android:elevation="10dp"/>
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/cafe"
@@ -188,7 +195,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.697" />
+        app:layout_constraintVertical_bias="0.697"
+        android:elevation="10dp"/>
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/zoo"
@@ -200,7 +208,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.899" />
+        app:layout_constraintVertical_bias="0.899"
+        android:elevation="10dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
