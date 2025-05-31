@@ -20,10 +20,16 @@ class PunktyActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.punkty)
 
-        val textView3 = findViewById<TextView>(R.id.textView3)
-        textView3.setOnClickListener {
+        val textView4 = findViewById<TextView>(R.id.textView4)
+        textView4.setOnClickListener {
             finish()
         }
+
+        val points = (application as MyApp).punkty
+
+        val btnPunkty = findViewById<Button>(R.id.button3)
+        btnPunkty.text = "$points PUNKTÓW"  // zaktualizuj tekst
+
 
     }
 

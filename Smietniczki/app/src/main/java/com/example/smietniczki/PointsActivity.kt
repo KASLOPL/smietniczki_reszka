@@ -23,4 +23,11 @@ class PointsActivity : AppCompatActivity() {
         }
 
     }
+
+    override fun onResume() {
+        super.onResume()
+        val app = application as MyApp
+        app.punkty += 100
+    }
+
 }

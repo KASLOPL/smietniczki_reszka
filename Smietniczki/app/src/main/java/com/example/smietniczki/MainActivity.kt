@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         private const val CAMERA_REQUEST_CODE = 2
     }
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
