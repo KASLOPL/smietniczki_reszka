@@ -28,8 +28,7 @@ class PunktyActivity : AppCompatActivity() {
         val points = (application as MyApp).punkty
 
         val btnPunkty = findViewById<Button>(R.id.button3)
-        btnPunkty.text = "$points PUNKTÓW"  // zaktualizuj tekst
-
+        btnPunkty.text = "$points PUNKTÓW"
 
     }
 
